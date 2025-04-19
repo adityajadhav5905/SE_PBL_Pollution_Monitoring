@@ -102,8 +102,25 @@ Latitude, Longitude, Temperature, Humidity, PM2.5, PM10, CO, MQ135_Gas, Timestam
 
 # Results.
 
+Setup :
+
+
+![Setup](https://github.com/user-attachments/assets/da7c0db4-670c-4b30-8787-c25179430613)
+
+
+
+
+Website :
+
+
 ![Homepage](https://github.com/user-attachments/assets/37952f63-1ec9-4594-85c9-572076b8ad58)
 
+
 ![Result](https://github.com/user-attachments/assets/acdcd323-366d-4e63-aafc-d9e78db34123)
+
+
+
+Heatmap Generated :
+
 
 ![H1](https://github.com/user-attachments/assets/f6d2bcfe-7319-475a-8010-67197843b292)
