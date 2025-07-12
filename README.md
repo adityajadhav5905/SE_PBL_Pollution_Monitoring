@@ -1,13 +1,13 @@
 # SE_PBL_Pollution_Monitoring
  Pollution Monitoring through heatmaps
 
- # 🌍 Mobile Air Pollution Monitoring System
+ # Mobile Air Pollution Monitoring System
 
 This project monitors real-time environmental and air pollution data using an ESP32-based mobile setup. The system logs data from multiple sensors every 20 seconds while moving and generates separate heatmaps using Python and Folium. The heatmaps are then displayed and made downloadable via a Flask-based web application.
 
 ---
 
-## 🚀 Features
+## Features
 
 - Real-time sensor data logging every 20 seconds
 - Mobile setup with GPS-based location tracking
@@ -19,7 +19,7 @@ This project monitors real-time environmental and air pollution data using an ES
 
 ---
 
-## 🧰 Hardware Components
+## Hardware Components
 
 | Component      | Functionality                                           |
 |----------------|---------------------------------------------------------|
@@ -32,7 +32,7 @@ This project monitors real-time environmental and air pollution data using an ES
 
 ---
 
-## 📁 Data Logging Format
+## Data Logging Format
 
 Each row in the CSV contains:
 
@@ -45,7 +45,7 @@ Latitude, Longitude, Temperature, Humidity, PM2.5, PM10, CO, MQ135_Gas, Timestam
 
 ---
 
-## 🧪 Heatmap Generation
+##  Heatmap Generation
 
 1. Run the provided Python script after data collection to process the CSV data.
 2. Normalize values for each parameter.
@@ -54,7 +54,7 @@ Latitude, Longitude, Temperature, Humidity, PM2.5, PM10, CO, MQ135_Gas, Timestam
 
 ---
 
-## 🖥️ Flask Web App for Heatmap Display
+## Flask Web App for Heatmap Display
 
 - The Flask app allows users to:
   - View generated heatmaps.
@@ -63,17 +63,17 @@ Latitude, Longitude, Temperature, Humidity, PM2.5, PM10, CO, MQ135_Gas, Timestam
 
 ---
 
-## 🗺️ Heatmaps Generated
+## Heatmaps Generated
 
-- 🌡️ Temperature Distribution
-- 💧 Humidity Levels
-- 🌀 PM2.5 & PM10 Concentration
-- 🚗 CO Pollution Levels
-- ☠️ Overall Harmful Gases (MQ-135 Readings)
+- Temperature Distribution
+- Humidity Levels
+- PM2.5 & PM10 Concentration
+- CO Pollution Levels
+- Overall Harmful Gases (MQ-135 Readings)
 
 ---
 
-## 📊 Current Workflow
+## Current Workflow
 
 - Data is collected offline and processed later.
 - Heatmaps are generated via Python and displayed using Flask.
@@ -81,7 +81,7 @@ Latitude, Longitude, Temperature, Humidity, PM2.5, PM10, CO, MQ135_Gas, Timestam
 
 ---
 
-## 🌐 Future Enhancements
+## Future Enhancements
 
 - Cloud-based data storage and processing.
 - Real-time data transmission via WiFi/Bluetooth.
@@ -90,35 +90,37 @@ Latitude, Longitude, Temperature, Humidity, PM2.5, PM10, CO, MQ135_Gas, Timestam
 
 ---
 
-## 📌 Summary
+## Summary
 
-- 📡 ESP32 logs multi-sensor data every 20 seconds with GPS.
-- 📄 Data is stored in CSV files.
-- 🧠 Python processes data and generates separate heatmaps.
-- 🖥️ Heatmaps are displayed and downloadable via Flask-based web application.
-- 💡 Useful for urban planning, health research & environmental monitoring.
-
----
-
-## 🔧 Running the Flask App
-
-1. **Install dependencies**:
-
-   ```
-   pip install flask folium pandas
-   ```
-
-2. **Run the Flask app**:
-
-   ```
-   python app.py
-   ```
-
-3. **Access the app**:
-   - Open `http://127.0.0.1:5000/` in your web browser to view and interact with the heatmaps.
-
-4. **Download the heatmaps**:
-   - After visualizing the heatmaps, you can download them as `.png` files.
+-  ESP32 logs multi-sensor data every 20 seconds with GPS.
+-  Data is stored in CSV files.
+-  Python processes data and generates separate heatmaps.
+-  Heatmaps are displayed and downloadable via Flask-based web application.
+-  Useful for urban planning, health research & environmental monitoring.
 
 ---
 
+# Results.
+
+Setup :
+
+
+![Setup](https://github.com/user-attachments/assets/da7c0db4-670c-4b30-8787-c25179430613)
+
+
+
+
+Website :
+
+
+![Homepage](https://github.com/user-attachments/assets/37952f63-1ec9-4594-85c9-572076b8ad58)
+
+
+![Result](https://github.com/user-attachments/assets/acdcd323-366d-4e63-aafc-d9e78db34123)
+
+
+
+Heatmap Generated :
+
+
+![H1](https://github.com/user-attachments/assets/f6d2bcfe-7319-475a-8010-67197843b292)
